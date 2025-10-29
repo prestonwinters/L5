@@ -18,3 +18,11 @@ main{
     border: 1px solid;
     color: unset;
 }
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background: url('../Images/A-bunch-of-Pizzas.jpg') no-repeat 50% 50%;
+    background-size: cover;
+}

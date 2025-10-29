@@ -5,8 +5,16 @@ body {
 h1{
     font-size: 2.5rem;
     letter-spacing: -0.02em;
-}
-h1,  h2, h3{
+    color: white;
     font-family: var(--font_sans);
-    color: var(--color_beige);
+    background-color: rgba(0,0,0,0.4);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    text-shadow: -2px 2px 0 #000;
+
+}
+h2, h3{
+    font-family: var(--font_sans);
+    color: var(--color_orange);
 }
